@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento con JavaScript</title>
+</head>
+<body>
+    <h1>Documento generado con JavaScript</h1>
+    <div id="contenido"></div>
+
+    <script>
+        // Crear contenido dinámico
+        document.addEventListener('DOMContentLoaded', function() {
+            var contenido = document.getElementById('contenido');
+            contenido.innerHTML = "<p>Este texto fue agregado usando JavaScript.</p>";
+        });
+    </script>
+</body>
+</html>
